@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.top-banner-section {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.section001 {
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.name-color {
+    color: orange;
+}
+
+.div001 {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.div001 img {
+    width: 80%;
+}
+
+.hire-me-btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top right, #FF9C77, #FF674A);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.section002 {
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.paragraph001 {
+    padding-right: 120px;
+}
+
+.experience-item {
+    display: flex;
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-child {
+    padding: 20px 30px;
+    margin: 40px;
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#exp-child01 {
+    border-left: 5px solid #E74C3C;
+}
+
+#exp-child02 {
+    border-left: 5px solid #28B463;
+}
+
+footer p {
+    width: 30%;
+    padding: 5px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 10px auto;
+    border-radius: 5px;
+}
